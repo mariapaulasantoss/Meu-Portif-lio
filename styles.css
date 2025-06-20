@@ -251,6 +251,7 @@ footer a {
     .cabecalho {
         flex-direction: column;
         gap: 10px;
+        padding: 1rem;
     }
     h1 {
         font-size: 2.5rem;
@@ -258,5 +259,25 @@ footer a {
     .cabecalho_subtitulo {
         font-size: 1.5rem;
     }
+    .projetos_caixa {
+        grid-template-columns: 1fr; /* Exibe os projetos em uma única coluna */
+    }
+    .projetos_card {
+        margin: 1rem 0; /* Adiciona margem entre os cards */
+    }
+    footer {
+        flex-direction: row; /* Muda a direção para coluna no footer */
+        align-items: center; /* Centraliza os itens */
+        padding: 0.5rem; /* Ajusta o padding */
+    }
+    footer img {
+        width: 1.5rem; /* Tamanho menor para ícones em dispositivos móveis */
+        height: 1.5rem; /* Tamanho menor para ícones em dispositivos móveis */
+    }
+    footer h1{
+        font-size: 25px;
+    }
+    footer a {
+        font-size: 0.9rem; /* Tamanho menor da fonte para links em dispositivos móveis */
+    }
 }
-
